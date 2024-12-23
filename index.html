@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Order Furniture Now</h1>
+    </header>
+
+    <section class="order-form-container">
+        <h2>Place Your Order</h2>
+        <form action="#" method="POST" class="order-form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+            </div>
+
+            <div class="form-group">
+                <label for="address">Shipping Address</label>
+                <textarea id="address" name="address" rows="4" required placeholder="Enter your shipping address"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="product">Select Product</label>
+                <select id="product" name="product" required>
+                    <option value="">Select a product</option>
+                    <option value="Mid-Century Sofa ">Mid-Century Sofa - ₹26,000</option>
+                    <option value="Living-Room Chair ">Living-Room Chair - ₹15,000</option>
+                    <option value="Classic Sofa">Classic Sofa - ₹22,000</option>
+                    <option value="Lounge Chair">Lounge Chair - ₹28,500</option>
+                    <option value="Restaurant Chair">Restaurant Chair - ₹5,000</option>
+                    <option value="White three-seater Sofa">White three-seater Sofa - ₹30,800</option>
+                    <option value="Purple-Barrel Chair">Purple-Barrel Chair - ₹13,500</option>
+                    <option value="Yellow Chair">Yellow Chair - ₹16,300</option>
+                    <option value="Mid-Century sofa">Mid-Century sofa - ₹40,200</option>
+                    <option value="Table Drawers">Table Drawers - ₹18,000</option>
+                    <option value="Round Garden sofa">Round Garden sofa - ₹22,500</option>
+                    <option value="Retro-Purple Chair">Retro-Purple Chair - ₹10,600</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="quantity">Quantity</label>
+                <input type="number" id="quantity" name="quantity" required min="1" value="1">
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Order</button>
+        </form>
+    </section>
+
+</body>
+</html>
